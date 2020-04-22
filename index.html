@@ -18,6 +18,19 @@
       table {
         border-spacing: 5px;
       }
+      * {box-sizing: border-box}
+      .container {
+        width: 100%;
+        background-color: #ddd;
+      }
+      .skills {
+        text-align: right;
+          padding-right: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: white;
+      }
+      .cs50intro {width: 50%; background-color: #4CAF50;}
     </style>
   </head>
   <body>
@@ -31,7 +44,11 @@
       </tr>
       <tr>
         <td>CS50 Introduction to CS50</td>
-        <th>Progress Rate</th>
+        <th>
+          <div id="container">
+            <div id="skills cs50intro">10%</div>
+          </div>
+        </th>
         <th>Link</th>
         <th>Description</th>
       </tr>
